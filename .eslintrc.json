@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "env": {
+    "es2022": true,
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "extends": "@playcanvas/eslint-config",
+  "globals": {
+    "Ammo": "readonly",
+    "earcut": "readonly",
+    "glslang": "readonly",
+    "GPUBufferUsage": "readonly",
+    "GPUColorWrite": "readonly",
+    "GPUMapMode": "readonly",
+    "GPUShaderStage": "readonly",
+    "GPUTextureUsage": "readonly",
+    "opentype": "readonly",
+    "pc": "readonly",
+    "TWEEN": "readonly",
+    "twgsl": "readonly",
+    "webkitAudioContext": "readonly",
+    "XRRay": "readonly",
+    "XRWebGLLayer": "readonly"
+  }
+}

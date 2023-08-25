@@ -1,0 +1,28 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Space indentation
+[*]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+
+[*.js]
+quote_type = single
+
+[*.html, *.htm]
+quote_type = single
+
+[*.md]
+trim_trailing_whitespace = false
+
+# The indent size used in the `package.json` file cannot be changed
+# https://github.com/npm/npm/pull/3180#issuecomment-16336516
+[{*.yml,*.yaml,package.json}]
+indent_style = space
+indent_size = 2

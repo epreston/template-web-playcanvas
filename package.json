@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "type": "module",
+  "name": "playcanvas-template",
+  "version": "0.1.0",
+  "description": "Repo Template: playcanvas ecosystem",
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=18.16.1 || >=20.0.0"
+  },
+  "packageManager": "npm@9.6.2",
+  "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "lint": "eslint --ext .js,.ts --report-unused-disable-directives .",
+    "start": "vite --open"
+  },
+  "devDependencies": {
+    "@playcanvas/eslint-config": "^1.7.0",
+    "eslint": "^8.47.0",
+    "playcanvas": "^1.65.3",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9"
+  }
+}
