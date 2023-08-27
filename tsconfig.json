@@ -3,7 +3,6 @@
         /* Language and Environment */
         "target": "ES2022",
         "lib": ["esnext", "dom"],
-        "jsx": "preserve",
 
         /* Modules */
         "module": "ES2022",
