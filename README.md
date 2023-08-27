@@ -20,12 +20,13 @@ npm run dev
 
 ## Commands
 
-| Action | Command         | Description                           |
-| ------ | --------------- | ------------------------------------- |
-| dev    | `npm run dev`   | Start live coding development server  |
-| build  | `npm run build` | Create a production build into "dist" |
-| lint   | `npm run lint`  | Run static code analysis              |
-| start  | `npm run start` | Start server and open in browser      |
+| Action | Command          | Description                           |
+| ------ | ---------------- | ------------------------------------- |
+| dev    | `npm run dev`    | Start live coding development server  |
+| build  | `npm run build`  | Create a production build into "dist" |
+| lint   | `npm run lint`   | Run static code analysis              |
+| format | `npm run format` | Format code in PlayCanvas style       |
+| start  | `npm run start`  | Start server and open in browser      |
 
 ## Tools
 
@@ -37,6 +38,16 @@ npm run dev
 | ESLint       | https://eslint.org       |
 | Prettier     | https://prettier.io      |
 | EditorConfig | https://editorconfig.org |
+
+## Ecosystem
+
+| Tool          | Reference                                              |
+| ------------- | ------------------------------------------------------ |
+| Engine        | https://github.com/playcanvas/engine                   |
+| Editor        | https://github.com/playcanvas/editor                   |
+| Model Viewer  | https://github.com/playcanvas/model-viewer             |
+| UI Library    | https://github.com/playcanvas/pcui                     |
+| ESLint Config | https://github.com/playcanvas/playcanvas-eslint-config |
 
 ## References
 
