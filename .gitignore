@@ -1,19 +1,34 @@
-.DS_Store
-.idea/
-.vscode/
-.npmrc
-.eslintcache
-*.tsbuildinfo
-
 node_modules
 dist
+dist-ssr
+*.local
 temp
 coverage
 
-*.log
+.eslintcache
+*.tsbuildinfo
 *.env
-
 stats.html
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 # ignore non-npm lockfiles
 pnpm-lock.yaml
