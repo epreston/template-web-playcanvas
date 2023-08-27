@@ -3,10 +3,6 @@
   "type": "module",
   "name": "playcanvas-template",
   "version": "0.1.0",
-  "description": "Repo Template: playcanvas ecosystem",
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "files": [
     "dist"
   ],
