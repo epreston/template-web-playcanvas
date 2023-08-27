@@ -1,7 +1,12 @@
+import './base.css';
 import * as pc from 'playcanvas';
 
+// create a canvas element at the app location
+const canvas = document.createElement('canvas');
+const location = document.querySelector('#app');
+location.appendChild(canvas);
+
 // create a PlayCanvas application
-const canvas = document.getElementById('application');
 const app = new pc.Application(canvas);
 
 // fill the available space at full resolution
