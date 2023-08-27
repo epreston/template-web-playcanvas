@@ -22,10 +22,10 @@ npm run dev
 
 | Action | Command         | Description                           |
 | ------ | --------------- | ------------------------------------- |
-| dev    | `npm run dev`   | Start a development server            |
+| dev    | `npm run dev`   | Start live coding development server  |
 | build  | `npm run build` | Create a production build into "dist" |
 | lint   | `npm run lint`  | Run static code analysis              |
-| start  | `npm run start` | Start server and open the app         |
+| start  | `npm run start` | Start server and open in browser      |
 
 ## Tools
 
