@@ -18,9 +18,9 @@
         "maxNodeModuleJsDepth": 3,
 
         /* Emit */
+        "sourceMap": false,
         "outDir": "temp",
         "removeComments": false,
-        "sourceMap": false,
         "newLine": "lf",
 
         /* Interop Constraints */
