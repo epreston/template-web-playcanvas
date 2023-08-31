@@ -1,5 +1,6 @@
 import './base.css';
 import * as pc from 'playcanvas';
+import { MiniStats } from '../node_modules/playcanvas/build/playcanvas-extras.mjs/mini-stats/mini-stats.js';
 
 // create a canvas element at the app location
 const canvas = document.createElement('canvas');
@@ -15,6 +16,10 @@ app.setCanvasResolution(pc.RESOLUTION_AUTO);
 
 // ensure canvas is resized when window changes size
 window.addEventListener('resize', () => app.resizeCanvas());
+
+// show mini stats
+const miniStats = new MiniStats(app);
+miniStats.enabled = true;
 
 // create box entity
 const box = new pc.Entity('cube');
