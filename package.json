@@ -19,10 +19,10 @@
     "start": "vite --open"
   },
   "devDependencies": {
-    "@playcanvas/eslint-config": "^1.7.0",
-    "eslint": "^8.47.0",
+    "@playcanvas/eslint-config": "^1.7.1",
+    "eslint": "^8.48.0",
     "playcanvas": "^1.65.3",
-    "prettier": "^3.0.2",
+    "prettier": "^3.0.3",
     "typescript": "^5.1.6",
     "vite": "^4.4.9"
   }
