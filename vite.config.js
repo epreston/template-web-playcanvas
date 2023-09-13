@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 // https://vitejs.dev/config/
 export default defineConfig({
     // additional asset types
-    assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a'],
+    assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a', '**/*.hdr'],
     build: {
         target: [
             'es2022',
