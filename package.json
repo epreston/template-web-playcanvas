@@ -2,13 +2,13 @@
   "private": true,
   "type": "module",
   "name": "playcanvas-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "engines": {
-    "node": ">=18.16.1 || >=20.0.0"
+    "node": ">=18.17.1 || >=20.0.0"
   },
   "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
   "scripts": {
@@ -20,8 +20,8 @@
   },
   "devDependencies": {
     "@playcanvas/eslint-config": "^1.7.1",
-    "eslint": "^8.48.0",
-    "playcanvas": "^1.65.3",
+    "eslint": "^8.49.0",
+    "playcanvas": "^1.65.4",
     "prettier": "^3.0.3",
     "typescript": "^5.1.6",
     "vite": "^4.4.9"
