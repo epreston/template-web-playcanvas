@@ -21,7 +21,7 @@
   "devDependencies": {
     "@playcanvas/eslint-config": "^1.7.1",
     "eslint": "^8.51.0",
-    "playcanvas": "^1.66.0",
+    "playcanvas": "^1.66.1",
     "prettier": "^3.0.3",
     "typescript": "^5.1.6",
     "vite": "^4.4.11"
