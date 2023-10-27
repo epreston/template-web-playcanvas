@@ -7,9 +7,6 @@
   "files": [
     "dist"
   ],
-  "engines": {
-    "node": ">=18.18.0 || >=20.0.0"
-  },
   "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
   "scripts": {
     "dev": "vite",
@@ -20,10 +17,13 @@
   },
   "devDependencies": {
     "@playcanvas/eslint-config": "^1.7.1",
-    "eslint": "^8.51.0",
+    "eslint": "^8.52.0",
     "playcanvas": "^1.66.1",
     "prettier": "^3.0.3",
     "typescript": "^5.1.6",
     "vite": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=18.18.0 || >=20.0.0"
   }
 }
