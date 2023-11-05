@@ -4,11 +4,9 @@ Repo Template: playcanvas ecosystem
 
 [![CI][ci-badge]][ci-url]
 
-## Setup
+## Quick Start
 
-Download [Node.js](https://nodejs.org/en/download/).
-
-Run the following commands:
+Install [Node.js](https://nodejs.org/en/download/), download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository, and run the following console commands within your local copy:
 
 ```bash
 # install dependencies
@@ -18,21 +16,27 @@ npm install
 npm run dev
 ```
 
-## Commands
+## NPM
 
-| Action | Command          | Description                           |
-| ------ | ---------------- | ------------------------------------- |
-| dev    | `npm run dev`    | Start live coding development server  |
-| build  | `npm run build`  | Create a production build into "dist" |
-| lint   | `npm run lint`   | Run static code analysis              |
-| format | `npm run format` | Format code in PlayCanvas style       |
-| start  | `npm run start`  | Start server and open in browser      |
+| Action     | Command              | Description                           |
+| ---------- | -------------------- | ------------------------------------- |
+| dev        | `npm run dev`        | Start live coding development server  |
+| build      | `npm run build`      | Create a production build into "dist" |
+| lint       | `npm run lint`       | Run static code analysis              |
+| start      | `npm run start`      | Start server and open in browser      |
+| format     | `npm run format`     | Check source file formatting          |
+| format-fix | `npm run format-fix` | Format code in the PlayCanvas style   |
+
+## Libraries
+
+| Library    | Reference              |
+| ---------- | ---------------------- |
+| PlayCanvas | https://playcanvas.com |
 
 ## Tools
 
 | Tool         | Reference                |
 | ------------ | ------------------------ |
-| PlayCanvas   | https://playcanvas.com   |
 | Node.js      | https://nodejs.org       |
 | Vite         | https://vitejs.dev       |
 | ESLint       | https://eslint.org       |
