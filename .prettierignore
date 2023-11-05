@@ -1,4 +1,5 @@
 # .prettierignore
 
 dist
+public
 coverage
