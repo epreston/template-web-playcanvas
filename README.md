@@ -6,7 +6,7 @@ Repo Template: playcanvas ecosystem
 
 ## Quick Start
 
-Install [Node.js](https://nodejs.org/en/download/), download or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) this repository, and run the following console commands within your local copy:
+Install [Node.js](https://nodejs.org/en/download/), create a new repository using this [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), download a local [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of your new repository, and run the following console commands within your local copy:
 
 ```bash
 # install dependencies
