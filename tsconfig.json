@@ -2,7 +2,7 @@
     "compilerOptions": {
         /* Language and Environment */
         "target": "ES2022",
-        "lib": ["esnext", "dom"],
+        "lib": ["esnext", "dom", "dom.iterable"],
         "jsx": "preserve",
 
         /* Modules */
