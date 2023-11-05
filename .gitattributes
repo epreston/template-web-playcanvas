@@ -3,7 +3,15 @@
 # More info here: https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
 
 # Set the default behavior, in case people don't have core.autocrlf set.
-* text=auto
+* text=auto eol=lf
+
+# Files to remove from language stats for this project
+# *.css linguist-vendored
+# *.html linguist-vendored
+# *.js linguist-vendored
+
+CHANGELOG.md export-ignore
+LICENSE eol=crlf
 
 # Explicitly declare text files to be normalized on checkin
 # and converted back to native line endings on checkout.
