@@ -1,8 +1,10 @@
-# PlayCanvas Web Project
+# PlayCanvas Template Web Project
 
-Repo Template: playcanvas ecosystem
+Repo template leveraging the PlayCanvas ecosystem.
 
 [![CI][ci-badge]][ci-url]
+
+https://github.com/epreston/template-web-playcanvas/assets/347224/1e36e163-660b-4eee-bd3e-2bd5d5efc59b
 
 ## Quick Start
 
