@@ -14,6 +14,25 @@ export default defineConfig({
             'chrome112',
             'safari16.4',
             'ios16.4'
-        ]
+        ],
+        chunkSizeWarningLimit: 800,
+        rollupOptions: {
+            output: {
+                // chunking and dependency size observability
+                manualChunks: (id) => {
+                    // create chunk for playcanvas extras deps.
+                    if (id.includes('extras') || id.includes('mini-stats')) {
+                        return 'extras';
+                    }
+                    // create chunk for playcanvas engine deps.
+                    if (
+                        id.includes('playcanvas') ||
+                        id.includes('@playcanvas')
+                    ) {
+                        return 'engine';
+                    }
+                }
+            }
+        }
     }
 });
