@@ -23,9 +23,6 @@ concurrency:
 permissions:
   contents: read
 
-env:
-  VITEST_SEGFAULT_RETRY: 3
-
 jobs:
   continuous-integration:
     runs-on: ubuntu-latest
