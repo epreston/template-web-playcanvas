@@ -35,16 +35,6 @@ npm run dev
 | ---------- | ---------------------- |
 | PlayCanvas | https://playcanvas.com |
 
-## Tools
-
-| Tool         | Reference                |
-| ------------ | ------------------------ |
-| Node.js      | https://nodejs.org       |
-| Vite         | https://vitejs.dev       |
-| ESLint       | https://eslint.org       |
-| Prettier     | https://prettier.io      |
-| EditorConfig | https://editorconfig.org |
-
 ## Ecosystem
 
 | Tool          | Reference                                              |
@@ -54,6 +44,16 @@ npm run dev
 | Model Viewer  | https://github.com/playcanvas/model-viewer             |
 | UI Library    | https://github.com/playcanvas/pcui                     |
 | ESLint Config | https://github.com/playcanvas/playcanvas-eslint-config |
+
+## Tools
+
+| Tool         | Reference                |
+| ------------ | ------------------------ |
+| Node.js      | https://nodejs.org       |
+| Vite         | https://vitejs.dev       |
+| ESLint       | https://eslint.org       |
+| Prettier     | https://prettier.io      |
+| EditorConfig | https://editorconfig.org |
 
 ## References
 
