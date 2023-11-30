@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-## NPM
+## Scripts
 
 | Action     | Command              | Description                           |
 | ---------- | -------------------- | ------------------------------------- |
