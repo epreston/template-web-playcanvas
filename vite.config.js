@@ -1,5 +1,3 @@
-// vite.config.js
-
 import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
@@ -7,14 +5,7 @@ export default defineConfig({
     // additional asset types
     assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a', '**/*.hdr'],
     build: {
-        target: [
-            'es2022',
-            'edge112',
-            'firefox112',
-            'chrome112',
-            'safari16.4',
-            'ios16.4'
-        ],
+        target: ['es2022'],
         chunkSizeWarningLimit: 800,
         rollupOptions: {
             output: {
@@ -26,8 +17,8 @@ export default defineConfig({
                     }
                     // create chunk for playcanvas engine deps.
                     if (
-                        id.includes('playcanvas') ||
-                        id.includes('@playcanvas')
+                        id.includes('node_modules/playcanvas') ||
+                        id.includes('node_modules/@playcanvas')
                     ) {
                         return 'engine';
                     }
