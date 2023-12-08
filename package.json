@@ -29,11 +29,11 @@
     "@playcanvas/eslint-config": "^1.7.1",
     "eslint": "^8.55.0",
     "prettier": "^3.1.0",
-    "typescript": "^5.3.2",
-    "vite": "^5.0.5"
+    "typescript": "^5.3.3",
+    "vite": "^5.0.6"
   },
   "dependencies": {
-    "playcanvas": "^1.67.2"
+    "playcanvas": "^1.67.3"
   },
   "engines": {
     "node": "^18.18.0 || >=20.9.0"
