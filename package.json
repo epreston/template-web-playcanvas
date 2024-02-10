@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "playcanvas-template",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "files": [
     "dist"
