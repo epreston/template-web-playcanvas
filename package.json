@@ -8,13 +8,13 @@
     "dist"
   ],
   "browserslist": [
-    "Chrome >= 112",
-    "ChromeAndroid >= 112",
-    "Edge >= 112",
-    "Firefox >= 112",
-    "FirefoxAndroid >= 112",
-    "Safari >= 16.4",
-    "iOS >= 16.4",
+    "Chrome >= 120",
+    "ChromeAndroid >= 120",
+    "Edge >= 120",
+    "Firefox >= 121",
+    "FirefoxAndroid >= 122",
+    "Safari >= 17.1",
+    "iOS >= 17.1",
     "not dead"
   ],
   "scripts": {
