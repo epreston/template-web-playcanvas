@@ -1,5 +1,3 @@
-# .eslintignore
-
 dist
 public
 coverage
