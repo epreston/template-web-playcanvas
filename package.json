@@ -33,7 +33,7 @@
     "vite": "^5.2.11"
   },
   "dependencies": {
-    "playcanvas": "~1.68.2"
+    "playcanvas": "~1.70.3"
   },
   "engines": {
     "node": "^18.19.0 || >=20.11.0"
