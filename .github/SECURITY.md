@@ -9,5 +9,3 @@ While the discovery of new vulnerabilities is rare, we also recommend always usi
 ## Reporting a Vulnerability
 
 Please use the "Private vulnerability reporting" feature in the GitHub repository (under the "Security" tab).
-
-Please note that we do not consider XSS via asset loading methods a valid attack vector, because it can only happen if the user intentionally uses untrusted content as an asset. This is similar to knowingly pasting untrusted scripts into a browser console. We explicitly warn users against using untrusted content as a resource in their application.
