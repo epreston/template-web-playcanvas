@@ -27,7 +27,6 @@ permissions:
 jobs:
   continuous-integration:
     name: Continuous Integration
-
     runs-on: ubuntu-latest
 
     timeout-minutes: 10
