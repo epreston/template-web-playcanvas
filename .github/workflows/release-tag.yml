@@ -1,0 +1,35 @@
+# When a version tag is pushed, create a github release
+
+name: Create Release
+
+on:
+  workflow_dispatch:
+
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions: {}
+
+jobs:
+  release-tag:
+    name: Create Release
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Release
+        id: release_tag
+        uses: epreston/release-tag@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: ${{ github.ref_name }}
+          body: |
+            Please refer to the commit [history](${{ github.server_url }}/${{ github.repository }}/commits/main) for details.
