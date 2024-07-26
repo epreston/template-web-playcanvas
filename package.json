@@ -33,6 +33,6 @@
     "vite": "^5.3.5"
   },
   "dependencies": {
-    "playcanvas": "~1.68.2"
+    "playcanvas": "~1.73.1"
   }
 }
