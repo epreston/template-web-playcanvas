@@ -4,9 +4,6 @@
   "name": "playcanvas-template",
   "version": "1.1.0",
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "browserslist": [
     "Chrome >= 120",
     "ChromeAndroid >= 120",
@@ -17,13 +14,16 @@
     "iOS >= 17.1",
     "not dead"
   ],
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
     "start": "vite --open",
     "lint": "eslint --ext .js,.ts --report-unused-disable-directives .",
-    "format": "prettier --check --cache \"**/*.[tj]s?(x)\"",
-    "format-fix": "prettier --write --cache \"**/*.[tj]s?(x)\""
+    "format": "prettier --write \"**/*.[tj]s?(x)\""
   },
   "devDependencies": {
     "@playcanvas/eslint-config": "^1.7.1",
@@ -34,8 +34,5 @@
   },
   "dependencies": {
     "playcanvas": "~1.68.2"
-  },
-  "engines": {
-    "node": "^18.20.3 || ^20.15.0 || >=22.4.0"
   }
 }

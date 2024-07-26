@@ -20,14 +20,13 @@ npm run dev
 
 ## Scripts
 
-| Action     | Command              | Description                           |
-| ---------- | -------------------- | ------------------------------------- |
-| dev        | `npm run dev`        | Start live coding development server  |
-| build      | `npm run build`      | Create a production build into "dist" |
-| lint       | `npm run lint`       | Run static code analysis              |
-| start      | `npm run start`      | Start server and open in browser      |
-| format     | `npm run format`     | Check source file formatting          |
-| format-fix | `npm run format-fix` | Format code in the PlayCanvas style   |
+| Action | Command          | Description                           |
+| ------ | ---------------- | ------------------------------------- |
+| dev    | `npm run dev`    | Start live coding development server  |
+| build  | `npm run build`  | Create a production build into "dist" |
+| lint   | `npm run lint`   | Run static code analysis              |
+| start  | `npm run start`  | Start server and open in browser      |
+| format | `npm run format` | Format code in the PlayCanvas style   |
 
 ## Libraries
 
