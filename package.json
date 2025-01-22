@@ -30,7 +30,7 @@
     "eslint": "^8.57.0",
     "prettier": "^3.4.2",
     "typescript": "^5.7.3",
-    "vite": "^5.4.12"
+    "vite": "^6.0.11"
   },
   "dependencies": {
     "playcanvas": "~1.68.2"
