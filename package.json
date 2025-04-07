@@ -33,6 +33,6 @@
     "vite": "^5.4.12"
   },
   "dependencies": {
-    "playcanvas": "~1.68.2"
+    "playcanvas": "~2.6.2"
   }
 }
