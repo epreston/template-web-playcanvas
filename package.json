@@ -29,7 +29,7 @@
     "@playcanvas/eslint-config": "^1.7.1",
     "eslint": "^8.57.0",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "vite": "^5.4.12"
   },
   "dependencies": {
