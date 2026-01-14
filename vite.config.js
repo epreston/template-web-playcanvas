@@ -5,8 +5,8 @@ export default defineConfig({
     // additional asset types
     assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a', '**/*.hdr'],
     build: {
-        target: ['es2022'],
-        chunkSizeWarningLimit: 900,
+        target: ['es2024'],
+        chunkSizeWarningLimit: 2600,
         rollupOptions: {
             output: {
                 // chunking and dependency size observability

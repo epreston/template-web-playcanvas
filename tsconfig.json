@@ -2,7 +2,7 @@
     "$schema": "http://json.schemastore.org/tsconfig",
     "compilerOptions": {
         /* Language and Environment */
-        "target": "ES2022",
+        "target": "ES2024",
         "lib": ["esnext", "dom", "dom.iterable"],
         "jsx": "preserve",
 
