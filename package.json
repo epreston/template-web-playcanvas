@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "name": "playcanvas-template",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "license": "MIT",
   "browserslist": [
     "baseline 2025"
