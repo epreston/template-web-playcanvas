@@ -74,6 +74,7 @@ pc.createGraphicsDevice(canvas)
             const camera = new pc.Entity();
             camera.addComponent('camera', {
                 clearColor: new pc.Color(0.38, 0.51, 0.58),
+                toneMapping: pc.TONEMAP_ACES,
                 farClip: 100
             });
             camera.translate(-20, 15, 20);
@@ -82,7 +83,6 @@ pc.createGraphicsDevice(canvas)
 
             // set skybox
             app.scene.envAtlas = assets.mountain.resource;
-            app.scene.toneMapping = pc.TONEMAP_ACES;
             app.scene.exposure = 0.5;
             app.scene.skyboxMip = 1;
 
