@@ -56,14 +56,15 @@ npm run dev
 
 ## References
 
-| Website        | Reference                        |
-| -------------- | -------------------------------- |
-| PlayCanvas API | https://developer.playcanvas.com |
-| Can I Use      | https://caniuse.com              |
-| Browserslist   | https://browsersl.ist            |
-| WebGL2         | https://www.khronos.org/webgl/   |
-| glTF           | https://www.khronos.org/gltf/    |
-| Fundamentals   | https://webgl2fundamentals.org   |
+| Website             | Reference                        |
+| ------------------- | -------------------------------- |
+| PlayCanvas API      | https://developer.playcanvas.com |
+| Can I Use           | https://caniuse.com              |
+| Browserslist        | https://browsersl.ist            |
+| Web Platform Status | https://webstatus.dev            |
+| WebGL2              | https://www.khronos.org/webgl/   |
+| glTF                | https://www.khronos.org/gltf/    |
+| Fundamentals        | https://webgl2fundamentals.org   |
 
 ## License
 
