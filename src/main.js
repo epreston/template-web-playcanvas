@@ -2,8 +2,6 @@ import './base.css';
 
 import * as pc from 'playcanvas';
 
-import { MiniStats } from '../node_modules/playcanvas/build/playcanvas-extras.mjs/mini-stats/mini-stats.js';
-
 // create a canvas element at the app location
 const canvas = document.createElement('canvas');
 const appElement = document.querySelector('#app');
@@ -51,7 +49,7 @@ pc.createGraphicsDevice(canvas)
         app.setCanvasResolution(pc.RESOLUTION_AUTO);
 
         // show mini stats
-        const miniStats = new MiniStats(app);
+        const miniStats = new pc.MiniStats(app);
         miniStats.enabled = true;
 
         // ensure canvas is resized when window changes size
