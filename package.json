@@ -22,7 +22,7 @@
     "@playcanvas/eslint-config": "^2.1.0",
     "eslint": "^9.39.2",
     "globals": "^17.1.0",
-    "prettier": "^3.8.0",
+    "prettier": "^3.8.1",
     "typescript": "^5.9.3",
     "vite": "^7.3.1"
   },
