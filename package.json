@@ -7,9 +7,9 @@
   "browserslist": [
     "baseline 2025"
   ],
-  "packageManager": "npm@11.7.0",
+  "packageManager": "npm@11.8.0",
   "engines": {
-    "node": "^20.19.0 || ^22.21.0 || >=24.12.0"
+    "node": "^22.22.0 || >=24.13.0"
   },
   "scripts": {
     "dev": "vite",
