@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    appType: 'mpa', // disable history fallback
     // additional asset types
     assetsInclude: ['**/*.gltf', '**/*.glb', '**/*.m4a', '**/*.hdr'],
     build: {
