@@ -7,7 +7,7 @@
   "browserslist": [
     "baseline 2025"
   ],
-  "packageManager": "npm@11.8.0",
+  "packageManager": "npm@11.11.0",
   "engines": {
     "node": "^22.22.0 || >=24.13.0"
   },
