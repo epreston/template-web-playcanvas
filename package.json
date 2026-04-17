@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@playcanvas/eslint-config": "^2.1.0",
-    "eslint": "^9.39.3",
+    "eslint": "^10.2.0",
     "globals": "^17.5.0",
     "prettier": "^3.8.3",
     "typescript": "^5.9.3",
