@@ -28,5 +28,8 @@
   },
   "dependencies": {
     "playcanvas": "^2.21.3"
+  },
+  "allowScripts": {
+    "esbuild": true
   }
 }
