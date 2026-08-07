@@ -12,7 +12,8 @@ export default [
         name: 'project/config/settings',
         rules: {
             // bugfix : allow promises (.then and .catch) to be indented
-            indent: ['error', 4, { MemberExpression: 'off' }]
+            indent: ['error', 4, { MemberExpression: 'off' }],
+            'import/no-unresolved': ['error', { ignore: ['^vite$'] }]
         },
         languageOptions: {
             ecmaVersion: 2024,
