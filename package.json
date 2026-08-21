@@ -27,7 +27,7 @@
     "vite": "^8.2.1"
   },
   "dependencies": {
-    "playcanvas": "^2.21.3"
+    "playcanvas": "^2.21.4"
   },
   "allowScripts": {
     "esbuild": true
