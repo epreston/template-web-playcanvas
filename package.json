@@ -21,10 +21,10 @@
   "devDependencies": {
     "@playcanvas/eslint-config": "^2.1.0",
     "eslint": "^9.39.3",
-    "globals": "^17.12.0",
+    "globals": "^17.13.0",
     "prettier": "^3.9.9",
     "typescript": "^5.9.3",
-    "vite": "^8.3.1"
+    "vite": "^8.3.2"
   },
   "dependencies": {
     "playcanvas": "^2.22.6"
