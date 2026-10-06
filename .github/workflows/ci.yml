@@ -4,7 +4,7 @@
 # For more information see:
 # https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
 
-name: CI
+name: Continuous Integration
 
 on:
   workflow_dispatch:
@@ -25,8 +25,8 @@ permissions:
   contents: read
 
 jobs:
-  continuous-integration:
-    name: Continuous Integration
+  validate:
+    name: Node.js
     runs-on: ubuntu-latest
 
     timeout-minutes: 10
