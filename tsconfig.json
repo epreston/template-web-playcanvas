@@ -19,7 +19,7 @@
 
         /* Emit */
         "sourceMap": false,
-        "outDir": "temp",
+        "outDir": "./temp",
         "removeComments": false,
         "newLine": "lf",
 
